@@ -1,0 +1,12 @@
+body{
+margin: 0;
+padding: 0;
+}
+.poster{
+    height: 112px;
+    width: 76px;
+}
+i{
+    font-size: 14px;
+    font-weight: normal;
+}
