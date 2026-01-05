@@ -13,9 +13,20 @@
         .box{
             width: 200px;
             height: 200px;
+            margin: 0 10px;
         }
         .red{
             background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+        .red p{
+            /*text-align: center;*/
+        }
+        .red img{
+            width: 50%;
         }
         .yellow{
             background-color: yellow;
@@ -23,12 +34,25 @@
         .green{
             background-color: green;
         }
+        .flex{
+            height: 100%;
+            background-color: burlywood;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
     </style>
 </head>
 <body>
-<div class="box red"></div>
-<div class="box yellow"></div>
-<div class="box green"></div>
-
+<div class="flex">
+    <div class="box red">
+        <p>Lorem ipsum dolor.</p>
+        <img src="https://shop.wattsfarms.co.uk/cdn/shop/products/apple-grannysmith-350-x-350_300x.png?v=1587171021" alt="apple">
+    </div>
+    <div class="box yellow"></div>
+    <div class="box green"></div>
+</div>
 </body>
 </html>
