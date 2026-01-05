@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .wrapper{
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .item{
+            width: 200px;
+            height: 200px;
+            background: #833AB4;
+            background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+            box-shadow: 9px 11px 5px -6px rgba(0,0,0,0.75) inset;
+            border-radius: 50%;
+            border: 3px solid #833AB4;
+            transition: 1s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .item a{
+            text-decoration: none;
+            color: white;
+        }
+        .item:hover{
+            border-radius: 0;
+            border: 4px solid rgba(253, 29, 29, 1);
+            transition: 3s;
+            transform: scale(1.1);
+        }
+        .item:hover a{
+            color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item">
+        <a href="#">Link</a>
+    </div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+</div>
+</body>
+</html>
